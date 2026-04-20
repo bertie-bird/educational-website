@@ -20,6 +20,8 @@ p {
 
 .center {
     text-align: center;
+    list-style-position: inside;
+    padding-left: 0;
 }
 
 #intro-paragraph {
