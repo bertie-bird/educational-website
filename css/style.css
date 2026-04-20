@@ -4,7 +4,7 @@ body {
     color: #063068 ;
 }
 
-h1, h2{
+h1, h2 {
     text-align: center;
 }
 
@@ -15,4 +15,24 @@ p {
 .highlight {
     background-color: #063068;
     color: #deebf7;
+    padding: 0 4px;
 }
+
+.center {
+    text-align: center;
+}
+
+#intro-paragraph {
+    font-weight: bold;
+}
+
+#explain {
+    font-weight: bold;
+    font-style: italic;
+}
+
+#free_explained {
+    display: flex;
+    gap: 20px;
+}
+
