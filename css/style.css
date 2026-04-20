@@ -1,0 +1,18 @@
+body {
+    background-color: #deebf7;
+    font-family: 'Courier New', Courier, monospace;
+    color: #063068 ;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+.highlight {
+    background-color: #063068;
+    color: #deebf7;
+}
