@@ -12,6 +12,10 @@ p {
     font-size: 16px;
 }
 
+footer {
+    margin-top: 40px
+}
+
 .highlight {
     background-color: #063068;
     color: #deebf7;
@@ -26,8 +30,9 @@ p {
 
 .flex-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .flex-container > div {
@@ -57,8 +62,4 @@ p {
         flex-direction: column;
         align-items: center;
     }
-}
-
-.btn-outline-* {
-    
 }

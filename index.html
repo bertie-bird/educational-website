@@ -12,12 +12,12 @@
 
 <body>
     <div class = "container-fluid">
-    <header>
-        <h1>Benifits of Swimming</h1>
+    <header class = "text-center py-4">
+        <h1 class = "display-4">Benifits of Swimming</h1>
     </header>
    
     <main>
-        <section>
+        <section class = "card p-4 shadow-sm mb-4">
         <h2> Why Swim?</h2>
             <!--Intro to the page-->
             <p id="intro-paragraph"> This sport is not only a hobby but a life skill. 
@@ -34,7 +34,7 @@
                 </ol>
         </section>
 
-        <section>
+        <section class = "card p-4 shadow-sm mb-4">
         <!--First Subtopic-->
         <h2>What are all the strokes in swimming?</h2>
             <ul class = "center">
@@ -44,14 +44,18 @@
                 <li>Freestyle</li>
             </ul>
             <div class="float-start">
-                <img src="images/different-swim-strokes.jpg" alt="visual aid for the four swim strokes" width="300">
+                <img src="images/different-swim-strokes.jpg" 
+                alt="visual aid for the four swim strokes" 
+                class = "img-fluid d-block mx-auto 
+                width="300">
             </div><br>
         </section>
-    <footer>
-         <nav class="d-flex justify-content-center gap-4"></nav>
-        <a href="page2.html" class="btn btn-outline-secondary">Read more on Page 2</a>
-        <a href="index.html" class="btn btn-outline-secondary">Back to Home</a>
+    <footer class = "text-center mt-5 pb-4">
+        <div class = "d-flex justify-content-center gap-3">
+            <!--Navigation Link-->
+            <a href="page2.html" class = "btn-outline-secondary">Read more on Page 2</a>
+            <a href="index.html" class = "btn-outline-primary">Back to Home</a>    
+        </div>
     </footer>
-    </div>
 </body>
 </html>
